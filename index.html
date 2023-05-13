@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabs</title>
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="tabs" class="container tabs">
+        <header>
+            <nav>
+                <button class="conteudo-1 ativo"><i class="fa-brands fa-square-js"></i> Javascript</button>
+                <button class="conteudo-2"><i class="fa-brands fa-html5"></i> HTML</button>
+                <button class="conteudo-3"><i class="fa-brands fa-css3-alt"></i> CSS</button>
+                <!-- <button onclick="abrirTab('conteudo-1'), ativarButton(this)" class="ativo">Título 1</button>
+                <button onclick="abrirTab('conteudo-2'), ativarButton(this)">Título 2</button>
+                <button onclick="abrirTab('conteudo-3'), ativarButton(this)">Título 3</button> -->
+            </nav>
+        </header>
+        <main>
+            <section id="conteudo-1" class="conteudoTab">
+                <h1> Javascript<i class="fa-brands fa-square-js"></i></h1>
+                <p>JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.</p>
+                <p>JavaScript é uma linguagem de programação que permite a você implementar itens complexos em páginas web — toda vez que uma página da web faz mais do que simplesmente mostrar a você informação estática — mostrando conteúdo que se atualiza em um intervalo de tempo, mapas interativos ou gráficos 2D/3D animados, etc. — você pode apostar que o JavaScript provavelmente está envolvido. É a terceira camada do bolo das tecnologias padrões da web, duas das quais (HTML e CSS) podem ser vista ao lado.</p>
+            </section>
+            <section id="conteudo-2" class="conteudoTab">
+                <h1>HTML<i class="fa-brands fa-html5"></i></h1>
+                <p>HTML é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da junção entre os padrões HyTime e SGML.</p>
+                <p>HyTime é um padrão para a representação estruturada de hipermídia e conteúdo baseado em tempo. Um documento é visto como um conjunto de eventos concorrentes dependentes de tempo (como áudio, vídeo, etc.), conectados por hiperligações (em inglês: hyperlink e link). O padrão é independente de outros padrões de processamento de texto em geral.</p>
+            </section>
+            <section id="conteudo-3" class="conteudoTab">
+                <h1>CSS<i class="fa-brands fa-css3-alt"></i></h1>
+                <p>Cascading Style Sheets (abreviado CSS) é um mecanismo para adicionar estilos (cores, fontes, espaçamento, etc.) a uma página web, aplicado diretamente nas tags HTML ou ficar contido dentro das tags style. Também é possível, adicionar estilos adicionando um link para um arquivo CSS que contém os estilos. Assim, quando se quiser alterar a aparência dos documentos vinculados a este arquivo CSS, basta modifica-lo.</p>
+                <p>Com a variação de atualizações dos navegadores, o suporte ao CSS pode variar. A interpretação dos navegadores pode ser avaliada com o teste Acid2, que se tornou uma forma base de revelar quão eficiente é o suporte de CSS, fazendo com que a nova versão em desenvolvimento do Firefox seja totalmente compatível a ele, assim como o Opera já é. O Doctype informado, ou a ausência dele, determina o quirks mode ou o strict mode, modificando o modo como o CSS é interpretado e a página desenhada.</p>
+            </section>
+        </main>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="https://kit.fontawesome.com/dad3f7dcfb.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
